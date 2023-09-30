@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "334441338409",
+    "project_id": "digitalvehiclemaintenance",
+    "storage_bucket": "digitalvehiclemaintenance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334441338409:android:2e192038300e4e8d05ae38",
+        "android_client_info": {
+          "package_name": "com.example.digital_vehicle_maintenance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334441338409-o2n47nuckbc3g5l3lf7ebd5gqhe88207.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digital_vehicle_maintenance",
+            "certificate_hash": "8b6b3d99337a9572384bb15fbdc515fa60084a6c"
+          }
+        },
+        {
+          "client_id": "334441338409-alfciq7sdov63ic6fkjoro1nspcd6ap1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFQv5hGDsmBZDvNkz8W-BSTyW59yEac1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334441338409-alfciq7sdov63ic6fkjoro1nspcd6ap1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

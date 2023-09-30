@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Digital_Vehicle_Maintenance</string>
+    <string name="hello">Hello</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
+    <string name="login">LOGIN</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="urlimg">http://192.168.110.20:8080/images/</string>
+    <string name="url">http://192.168.110.20/DigitalVehicleMaintenance/</string>
+
+    <string name="slide_1_title">Welcome to Javatpoint!</string>
+    <string name="slide_1_desc">Javatpoint is passionate to offer better technical content to the world.</string>
+
+    <string name="slide_2_title">Android</string>
+    <string name="slide_2_desc">Android is a mobile operating system developed by Google.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="time_slot">
+        <item>10-11 AM</item>
+        <item>11-12 PM</item>
+        <item>12-1 PM</item>
+        <item>1-2 PM</item>
+    </string-array>
+    <string name="List1">Fuel Type</string>
+</resources>

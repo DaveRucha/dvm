@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ServiceBookingActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="Book Service"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/round_border"
+            android:hint="Name"
+            android:drawableStart="@drawable/person2"
+            android:drawablePadding="10dp"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/phone"
+            android:drawablePadding="10dp"
+            android:hint="Contact"
+            android:padding="16dp" />
+
+
+        <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_baseline_date_range_24"
+        android:drawablePadding="10dp"
+        android:hint="Date"
+        android:inputType="date"
+        android:padding="16dp" />
+
+
+        <Button
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_width="wrap_content"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:text="Select Date"
+            android:background="@drawable/round_border"
+            android:backgroundTint="@color/colorPrimary"
+            ></Button>
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/ic_baseline_access_time_24"
+            android:drawablePadding="10dp"
+            android:hint="Time"
+            android:inputType="time"
+            android:padding="16dp" />
+        <Button
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_width="wrap_content"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_time"
+            android:text="Select Time"
+            android:background="@drawable/round_border"
+            android:backgroundTint="@color/colorPrimary"
+            ></Button>
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/home"
+            android:drawablePadding="10dp"
+            android:hint="Address"
+            android:inputType="textMultiLine"
+            android:padding="16dp" />
+        <EditText
+            android:id="@+id/add_req"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/ic_baseline_add_24"
+            android:drawablePadding="10dp"
+            android:hint="Additional Requirement"
+            android:inputType="textMultiLine"
+            android:padding="16dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="book_service"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/round_border"
+        android:backgroundTint="@color/colorPrimary"/>
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

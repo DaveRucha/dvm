@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CarBookingActivity">
+
+    <ImageView
+        android:id="@+id/img_car"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="0.3"
+        android:src="@drawable/car" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/car_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="Car Name"
+                android:textColor="#000000"
+                android:textSize="27sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:text=" \u20B9 5000 /-"
+                android:textColor="#BF5709"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+            l
+
+            <TextView
+                android:id="@+id/car_fuel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:drawableStart="@drawable/fuel"
+                android:drawablePadding="10dp"
+                android:text="Petrol"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/car_capacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:drawableStart="@drawable/person2"
+                android:drawablePadding="10dp"
+                android:text="5 persons"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/car_fromto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:drawableStart="@drawable/ic_baseline_date_range_24"
+                android:drawablePadding="10dp"
+                android:text="From to"
+                android:textSize="23sp" />
+
+
+            <TextView
+                android:id="@+id/car_terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:drawableStart="@drawable/security"
+                android:drawablePadding="10dp"
+                android:onClick="terms"
+                android:text="Terms and Conditions"
+                android:textStyle="italic"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textSize="23sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="19dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:onClick="Book"
+                    android:text="Book"
+                    android:id="@+id/book"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

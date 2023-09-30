@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/car_terms_scene">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:text="Terms and conditions"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/border_round1"
+            android:backgroundTint="#DBDCD7"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:drawableStart="@drawable/check_circle"
+                android:drawablePadding="20dp"
+                android:text="The pricing plan selected cannot be changed after the booking is made. (i.e. with fuel, 55 kms included, extra kms @ ₹ 9/km)"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="15dp"
+                android:drawableStart="@drawable/check_circle"
+                android:drawablePadding="20dp"
+                android:text="We DO NOT permit taking Revv cars to Leh/Ladhakh region, Kaza/Nako region or Spiti Valley. Customer will be fully liable for any damages incurred to the car in that region."
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="15dp"
+                android:drawableStart="@drawable/check_circle"
+                android:drawablePadding="20dp"
+                android:text="Without fuel booking: In case you are returning the car at a lower fuel level than what was received, we will charge flat ₹ 500/- as refueling service charge + actual fuel cost to get the tank to the same level as what was received."
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="15dp"
+                android:drawableStart="@drawable/check_circle"
+                android:drawablePadding="20dp"
+                android:text="With fuel booking: Since fuel is included in your booking price, in case you need to refuel during your trip, we will reimburse the cost against the actual fuel bills. Please let our executive take a pic of them while returning the car. Hand written bills are NOT valid."
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="15dp"
+                android:drawableStart="@drawable/check_circle"
+                android:drawablePadding="20dp"
+                android:text="Please inspect and approve the car condition, odometer reading, fuel gauge etc. before you take the delivery."
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
